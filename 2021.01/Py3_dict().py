@@ -20,7 +20,7 @@ for line in handle:
 bigword = None
 bigcount = None
 
-#딕셔너리.items()를 하면 key,value 값이 나옴!
+#딕셔너리.items()를 하면 key,value 값이 나옴! (정확하게는 key, value값으로 구성된 tuple list 생성)
 #값이 두개여서 for과 in 사이에 두개의 값을 넣어줘야함!
 for address,count in email.items():
     if bigcount == None or bigcount < count:
